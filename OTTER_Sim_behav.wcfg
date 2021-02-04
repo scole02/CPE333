@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="OTTER_Sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="OTTER_Sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="86641840fs"></ZoomStartTime>
+      <ZoomEndTime time="88675841fs"></ZoomEndTime>
+      <Cursor1Time time="88146790fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="165"></NameColumnWidth>
+      <ValueColumnWidth column_width="126"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/OTTER_Sim/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Sim/Otter/MCU/PC_OUT" type="array">
+      <obj_property name="ElementShortName">PC_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Sim/Otter/MCU/CUD_OTTER/CU_OPCODE" type="array">
+      <obj_property name="ElementShortName">CU_OPCODE[6:0]</obj_property>
+      <obj_property name="ObjectShortName">CU_OPCODE[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Sim/Otter/MCU/PC_SOURCE" type="array">
+      <obj_property name="ElementShortName">PC_SOURCE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_SOURCE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Sim/Otter/MCU/CU_OTTER_FSM/OPCODE" type="array">
+      <obj_property name="ElementShortName">OPCODE[6:0]</obj_property>
+      <obj_property name="ObjectShortName">OPCODE[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_Sim/Otter/r_SSEG" type="array">
+      <obj_property name="ElementShortName">r_SSEG[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r_SSEG[15:0]</obj_property>
+   </wvobject>
+</wave_config>
